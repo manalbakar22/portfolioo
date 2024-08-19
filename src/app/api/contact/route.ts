@@ -18,7 +18,7 @@ export const POST = async (req: Request, res: Response) => {
       html: `<div style="display: flex; justify-content: center; gap: 20px;">
       <div style="display: grid; place-items: center; gap: 20px;">
       <h1 style="text-transform: capitalize; font-weight: bold; font-family: 'Poppins', sans-serif; font-size: 30px; display: flex; align-items: center; white-space: nowrap; margin: 0 12px;">
-      you have message from Mohamed
+      you have message from Manal
       <span style="font-size: 40px; font-weight: bold; color: #6e06f2;border-radius:50%">.</span>
       </h1>
       
@@ -36,8 +36,7 @@ export const POST = async (req: Request, res: Response) => {
     });
     return Response.json({ message: "Message send successfully" })
   } catch (error) {
-    return Response.json({ message: { error, email: process.env.EMAIL_PASS } })
+    return Response.json({ message: { error, email: process.env.EMAIL_PASS } })
 
-  }
+  }
 }
-

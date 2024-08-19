@@ -10,10 +10,10 @@ const Education = () => {
     const [isAnimated, setIsAnimated] = useState(false)
     const [prevIndex, setPreviousIndex] = useState<number | null>(null)
     const education = {
-        uni: "OFPPT",
-        description: "OFPPT is a public institution in Morocco focused on vocational training and employment promotion.",
-        title: "Full-stack web development",
-        duration: "september 2021-july 2024"
+        uni: "FST-Errachidia",
+        description: "Facultee des sciences te  techniques E-rrachidia  .",
+        title: "Ingenieur en  Genie informatique  option genielogiciel et  business intelligence",
+        duration: "september 2020-july 2025"
     }
     const certificates: {
         uni: string,
@@ -22,16 +22,16 @@ const Education = () => {
         date: string
     }[] = [
             {
-                uni: "JobInTech",
-                title: "Full Stack JS Development",
-                description: () => <><Check color="#6e06f2" className="lg:size-9 size-16" /><p className="lg:text-base text-xs">JobInTech is a Moroccan digital skills training program focused on hands- on, project - based learning to teach coding and enhance employability in the tech sector.</p></>,
-                date: "december 2023 - mai 2024"
+                uni: "SimplLearn",
+                title: "Data Scientist: Statistics for Data Science",
+                description: () => <><Check color="#6e06f2" className="lg:size-9 size-16" /><p className="lg:text-base text-xs">Simplilearn offers comprehensive training on various data science technologies through courses like "Data Scientist: Statistics for Data Science.</p></>,
+                date: " mai 2024"
             },
             {
-                uni: "Coursera & IBM",
-                title: "Full Stack Web Development",
-                description: () => <><Check color="#6e06f2" className="lg:size-9 size-16" /><p className="lg:text-base text-xs">Coursera and IBM provide comprehensive training on various web development technologies, including <Link className="text-[#6e06f2] text-nowrap" href={"https://www.coursera.org/account/accomplishments/records/WTTR33FZU33C"}>HTML, CSS, JavaScript</Link> & <Link className="text-[#6e06f2] text-nowrap" href={"https://www.coursera.org/account/accomplishments/records/V8YTV7L38JMW"}>ReactJS</Link> & <Link className="text-[#6e06f2] text-nowrap" href={"https://www.coursera.org/account/accomplishments/records/5B8NG2T9C2K8"}>NodeJS , ExpressJS</Link> and more.</p></>,
-                date: "mai 2024"
+                uni: "Udemy",
+                title: " The Git & GitHub Bootcamp",
+                description: () => <><Check color="#6e06f2" className="lg:size-9 size-16" /><p className="lg:text-base text-xs">Udemy offers comprehensive training on various web development technologies through courses like "The Git & GitHub Bootcamp: The Complete-Practical Guide. <Link className="text-[#6e06f2] text-nowrap" href={"https://www.udemy.com/certificate/UC-30bf745d-1111-4eb5-9b49-b1e9ea4c7c5c/"}>GitHub, Git</Link> </p></>,
+                date: "Avril 2024"
             }
         ]
 
