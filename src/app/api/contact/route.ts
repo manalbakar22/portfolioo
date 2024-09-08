@@ -38,5 +38,5 @@ export const POST = async (req: Request, res: Response) => {
   } catch (error) {
     return Response.json({ message: { error, email: process.env.EMAIL_PASS } })
 
-  }
+}
 }

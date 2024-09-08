@@ -11,8 +11,8 @@ const Education = () => {
     const [prevIndex, setPreviousIndex] = useState<number | null>(null)
     const education = {
         uni: "FST-Errachidia",
-        description: "Facultee des sciences te  techniques E-rrachidia  .",
-        title: "Ingenieur en  Genie informatique  option genielogiciel et  business intelligence",
+        description: "Faculté des sciences et techniques E-rrachidia  .",
+        title: "Ingénieur en génie informatique, option génie logiciel et business intelligence",
         duration: "september 2020-july 2025"
     }
     const certificates: {
@@ -32,6 +32,12 @@ const Education = () => {
                 title: " The Git & GitHub Bootcamp",
                 description: () => <><Check color="#6e06f2" className="lg:size-9 size-16" /><p className="lg:text-base text-xs">Udemy offers comprehensive training on various web development technologies through courses like "The Git & GitHub Bootcamp: The Complete-Practical Guide. <Link className="text-[#6e06f2] text-nowrap" href={"https://www.udemy.com/certificate/UC-30bf745d-1111-4eb5-9b49-b1e9ea4c7c5c/"}>GitHub, Git</Link> </p></>,
                 date: "Avril 2024"
+            },
+            {
+                uni: "Huawei",
+                title: " Cloud Advanced: Architecture and Technologies",
+                description: () => <><Check color="#6e06f2" className="lg:size-9 size-16" /><p className="lg:text-base text-xs">Huawei propose une formation complète sur les technologies cloud avancées à travers des cours comme 'Cloud Advanced: Architecture and Technologies. <Link className="text-[#6e06f2] text-nowrap" href={"https://e.huawei.com/en/talent/#/personal/mycert?tab=cert"}>Coud</Link> </p></>,
+                date: "Septembre 2024"
             }
         ]
 

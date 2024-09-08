@@ -32,7 +32,9 @@ const HomePage = () => {
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
-                href="/assets/files/Mohamed_Khassar_CV(ENG).pdf"
+               
+              
+                href="\assets\files\cvvcer.pdf"
                 className="outline-none shadow-2xl shadow-[#6e06f2]/80 py-3 px-5 lg:text-xl bg-[#6e06f2] text-white capitalize font-bold rounded-md flex gap-x-3 text-sm items-center"
               >
                 my resume
